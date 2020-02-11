@@ -1259,6 +1259,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/fontawesome-common-types@npm:^0.2.27":
+  version: 0.2.27
+  resolution: "@fortawesome/fontawesome-common-types@npm:0.2.27"
+  checksum: 2eb1f4adbe31a6533b3d3fdd20e37fd7c9e61cf29d144fcb3d225a5d16b57c16fa2a72dd6862382ea7b184aca85fd65b66781de1570a4b911eb4e9b39a74f9de
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-svg-core@npm:^1.2.27":
+  version: 1.2.27
+  resolution: "@fortawesome/fontawesome-svg-core@npm:1.2.27"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": ^0.2.27
+  checksum: 000027a6d1a33a152e4799bd0c3c1507205697f86ddc0961f69f83c8561bcf93327353980efc8794f1dd7e7a1a50a36f710198d9f7e03855d9832fd5df6958f9
+  languageName: node
+  linkType: hard
+
+"@fortawesome/free-solid-svg-icons@npm:^5.12.1":
+  version: 5.12.1
+  resolution: "@fortawesome/free-solid-svg-icons@npm:5.12.1"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": ^0.2.27
+  checksum: f966c13f826dfe57b2e2a212d5968ce7d4f9670ffb26d675259a2f0d19dfa777d269e6e4506e16d00da34943ae8526eb1fb2b889467f309ca3dbf371a57aec94
+  languageName: node
+  linkType: hard
+
+"@fortawesome/react-fontawesome@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@fortawesome/react-fontawesome@npm:0.1.8"
+  dependencies:
+    prop-types: ^15.5.10
+  peerDependencies:
+    "@fortawesome/fontawesome-svg-core": ^1.2.20
+    react: 16.x
+  checksum: c13777b29061dcca6d39ee2f30d820e1221e4293ce87d336197bb6e0c19adbd4bbb2963be03c71f8e093a36e813b8acf2079849e62a7450f1d871a8678ecd5d6
+  languageName: node
+  linkType: hard
+
 "@hapi/address@npm:2.x.x":
   version: 2.1.4
   resolution: "@hapi/address@npm:2.1.4"
@@ -5870,6 +5907,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "frontend@workspace:."
   dependencies:
+    "@fortawesome/fontawesome-svg-core": ^1.2.27
+    "@fortawesome/free-solid-svg-icons": ^5.12.1
+    "@fortawesome/react-fontawesome": ^0.1.8
     "@testing-library/jest-dom": ^4.2.4
     "@testing-library/react": ^9.3.2
     "@testing-library/user-event": ^7.1.2
@@ -10776,7 +10816,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
+"prop-types@npm:^15.5.10, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
