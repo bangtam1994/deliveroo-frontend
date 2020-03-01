@@ -10,7 +10,7 @@ function Banner({ data }) {
           <p className="description">{data.restaurant.description}</p>
         </div>
         <div className="flex1 ">
-          <img src={imageRestaurant} alt="image Pain Quotidien" />{" "}
+          <img src={imageRestaurant} alt=" Pain Quotidien" />{" "}
         </div>
       </div>
     </div>

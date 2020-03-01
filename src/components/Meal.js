@@ -29,6 +29,7 @@ function Meal({
 
             setTotalBasket(copy[i].totalPrice);
             isProductFound = true;
+            break;
           }
         }
         if (isProductFound === false) {
