@@ -35,9 +35,9 @@ Clone this repository :
 
 ```
 
-git clone https://github.com/bangtam1994/marvel-frontend-react.git
+git clone https://github.com/bangtam1994/deliveroo-frontend.git
 
-cd marvel-frontend
+cd deliveroo-frontend
 
 ```
 
